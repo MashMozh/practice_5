@@ -1,8 +1,17 @@
+import turtle as trtl
 xc=int(input())
 yc=int(input())
 r=int(input())
 x=int(input())
 y=int(input())
+trtl.up()
+trtl.goto(xc-r, yc-r)
+trtl.down()
+trtl.circle(r)
+trtl.up()
+trtl.goto(x, y)
+trtl.down
+trtl.dot()
 distance = ((x - xc) ** 2 + (y - yc) ** 2) ** 0.5
 if distance < r:
   print('Точка находится внутри окружности')
