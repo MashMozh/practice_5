@@ -1,0 +1,11 @@
+knat=int(input())
+gal=knat//493
+sik=(knat-gal*493)//29
+knat_r=(knat-gal*493-sik*29)
+if sik==0:
+  print(gal, 'галлеон',knat_r, 'кнат')
+elif gal==0:
+  print(sik, 'сикль', knat_r, 'кнат')
+else:
+  print(gal, 'галлеон', sik, 'сикль', knat_r, 'кнат')
+  
