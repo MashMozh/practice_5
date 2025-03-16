@@ -1,0 +1,6 @@
+N, K, M = map(int, input().split())
+if M >= K:
+  distance = M - K - 1
+else:
+  distance = N - K + M - 1
+print(distance)
