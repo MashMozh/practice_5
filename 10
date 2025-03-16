@@ -1,0 +1,10 @@
+a=int(input())
+a1=a//1000
+a2=a//100%10
+a3=a//10%100
+a4=a%1000
+if a//1000!=0 and (a<1900 or a>2050) and a1!=a2!=a3!=a4:
+  print('OK')
+else:
+  print('ERROR')
+  
